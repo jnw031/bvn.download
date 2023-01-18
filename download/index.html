@@ -1,0 +1,579 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+
+<!-- Mirrored from hmcl.huangyuhui.net/download/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 17 Jan 2023 14:02:50 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>下载 - Hello Minecraft! Launcher</title>
+<meta name="description" content="HMCL 启动器       跨平台       整合包管理       自动安装       八年历史       三亿次使用">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Hello Minecraft! Launcher">
+<meta property="og:title" content="下载">
+<meta property="og:url" content="index.html">
+
+
+  <meta property="og:description" content="HMCL 启动器       跨平台       整合包管理       自动安装       八年历史       三亿次使用">
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="index.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": null,
+      "url": "https://hmcl.huangyuhui.net/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="../feed.xml" type="application/atom+xml" rel="alternate" title="Hello Minecraft! Launcher Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="../assets/css/main.css">
+<link rel="preload" href="../../cdn.jsdelivr.net/npm/%40fortawesome/fontawesome-free%405/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="../../cdn.jsdelivr.net/npm/%40fortawesome/fontawesome-free%405/css/all.min.css"></noscript>
+
+
+
+    <link rel="shortcut icon" href="favicon.ico">
+</head>
+
+<body class="layout--download">
+<nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+<!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="../index.html">
+          Hello Minecraft! Launcher
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="index.html">下载</a>
+            </li><li class="masthead__menu-item">
+              <a href="../help/index.html">文档</a>
+            </li><li class="masthead__menu-item">
+              <a href="../usage/index.html">使用次数</a>
+            </li><li class="masthead__menu-item">
+              <a href="../about/index.html">关于</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://ci.huangyuhui.net/job/HMCL">Jenkins CI</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+<div class="initial-content">
+    <link rel="stylesheet" href="../assets/css/common.css" />
+
+<style>
+
+.download {
+  margin-bottom: 16px;
+  padding: 0 25px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.download .logo {
+  height: 100px;
+  width: 100px;
+  background-size: contain !important;
+  margin: 0 auto;
+}
+
+.download.windows .logo {
+  background: url('../assets/img/windows-logo.png') center center no-repeat;
+}
+
+.download.linux .logo {
+  background: url('../assets/img/linux-logo.png') center center no-repeat;
+}
+
+.download.mac .logo {
+  background: url('../assets/img/apple-logo.svg') center center no-repeat;
+}
+
+.download .downloads {
+  margin-top: 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.download.windows .downloads {
+  width: 55%;
+}
+
+.download.linux .downloads {
+  width: 55%;
+}
+
+.download.mac .downloads {
+  width: 55%;
+}
+
+.btn-link {
+  border-color: transparent;
+  background-color: transparent;
+  color: #337ab7;
+}
+
+.alt-downloads {
+  text-align: center;
+  margin-left: -25px;
+  margin-right: -25px;
+}
+
+.link-button {
+  color: white;
+  margin: 20px 0 5px;
+  padding: 10px 0;
+  font-size: 0.75rem;
+  width: 200px;
+  background-color: #373277;
+}
+
+.link-button small {
+  display: block;
+  margin-top: 0.5rem;
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 0.5rem;
+}
+
+.link-button small.build-type {
+  margin-top: 0;
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+
+.link-button:hover {
+  background-color: rgba(55, 50, 119, 0.8);
+}
+
+.link-button img {
+  position: relative;
+  top: -2px;
+  margin-right: 10px;
+}
+
+button {
+  border: none;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 15px 35px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.download-icon {
+  display: inline;
+}
+
+.download-icon-accessible {
+  display: none;
+}
+
+img {
+  vertical-align: middle;
+  border: 0;
+}
+
+.swimlane {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+h2 {
+  padding-bottom: 3.5rem;
+  text-align: center;
+}
+
+
+
+
+</style>
+
+<div class="main" role="main">
+<div class="archive">
+
+<p class="notice--warning">一般用户请下载Windows版本</p>
+
+<script>
+var shown = {};
+function onShowHashCode(id) {
+  var display = document.getElementById(id).style.display;
+  if (display === 'none') {
+    document.getElementById(id).style.display = '';
+  } else {
+    document.getElementById(id).style.display = 'none';
+  }
+}
+
+function getBuildNumbers() {
+  return fetch('https://ci.huangyuhui.net/job/HMCL/api/json?tree=builds[number]')
+    .then(res => res.text())
+}
+
+function getBuildInfo(channel) {
+  return fetch('https://hmcl.huangyuhui.net/api/update_link?channel=' + channel + '&download_link=true')
+    .then(res => res.json())
+}
+
+getBuildInfo('stable')
+  .then(updateLink => {
+    document.getElementById("stableVersion").innerText = updateLink.version;
+
+    document.getElementById("stableExeSha1").innerText = updateLink.exesha1;
+    document.getElementById("stableJarSha1").innerText = updateLink.jarsha1;
+  });
+
+getBuildInfo('dev')
+  .then(updateLink => {
+    document.getElementById("devVersion").innerText = updateLink.version;
+
+    document.getElementById("devWindowsExe").href = updateLink.exe;
+    document.getElementById("devWindowsJar").href = updateLink.jar;
+    document.getElementById("devLinuxJar").href = updateLink.jar;
+    document.getElementById("devMacJar").href = updateLink.jar;
+
+    document.getElementById("devWindowsHref").href = updateLink.exe;
+    document.getElementById("devLinuxHref").href = updateLink.jar;
+    document.getElementById("devMacHref").href = updateLink.jar;
+
+    document.getElementById("devExeTd").href = updateLink.exe;
+    document.getElementById("devJarTd").href = updateLink.jar;
+
+    document.getElementById("devExeSha1").innerText = updateLink.exesha1;
+    document.getElementById("devJarSha1").innerText = updateLink.jarsha1;
+  });
+
+</script>
+
+<div class="swimlane">
+  <h2>下载稳定版 <span id="stableVersion">Loading...</span></h2>
+  <div class="alt-downloads">
+    <div class="download windows">
+      <div class="logo"></div>
+      <a href="https://url94.ctfile.com/d/33326794-44675752-fc62fc">
+        <button class="link-button dlink" data-os="win">
+          <img class="download-icon" src="../assets/img/download.svg" width="18px" height="18px" alt="下载 Hello Minecraft! Launcher" />
+          <img class="download-icon-accessible" src="../assets/img/download-black.svg" width="18px" height="18px" alt="下载 Hello Minecraft! Launcher" />
+          Windows
+          <small>Windows XP, Vista, 7, 8, 10</small>
+        </button>
+      </a>
+      <table class="downloads">
+        <colgroup>
+          <col />
+          <col />
+        </colgroup>
+        <tbody>
+        <tr>
+          <td>访问密码</td>
+          <td><strong>5267</strong></td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="download linux">
+      <div class="logo"></div>
+      <a href="https://url94.ctfile.com/d/33326794-44675758-7f2fb5">
+        <button class="link-button dlink" data-os="linux">
+          <img class="download-icon" src="../assets/img/download.svg" width="18px" height="18px" alt="下载 Hello Minecraft! Launcher" />
+          <img class="download-icon-accessible" src="../assets/img/download-black.svg" width="18px" height="18px" alt="下载 Hello Minecraft! Launcher" />
+          .jar
+          <small>Linux, Oracle JDK 8~10</small>
+        </button>
+      </a>
+      <table class="downloads">
+        <colgroup>
+          <col />
+          <col />
+        </colgroup>
+        <tbody>
+        <tr>
+          <td>访问密码</td>
+          <td><strong>5267</strong></td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="download mac">
+      <div class="logo"></div>
+      <a href="https://url94.ctfile.com/d/33326794-44675755-87053d">
+        <button class="link-button dlink" data-os="osx">
+          <img class="download-icon" src="../assets/img/download.svg" width="18px" height="18px" alt="下载 Hello Minecraft! Launcher" />
+          <img class="download-icon-accessible" src="../assets/img/download-black.svg" width="18px" height="18px" alt="下载 Hello Minecraft! Launcher" />
+          Mac
+          <small>Java 8~10</small>
+        </button>
+      </a>
+      <table class="downloads">
+        <colgroup>
+          <col />
+          <col />
+        </colgroup>
+        <tbody>
+        <tr>
+          <td>访问密码</td>
+          <td><strong>5267</strong></td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <button class="btn-link" style="font-size: 14px; font-weight: 100;" onclick="onShowHashCode('stableChangelog')">查看 SHA-1 哈希值</button>
+      <a target="_blank" href="../changelog/stable.html"><button class="btn-link" style="font-size: 14px; font-weight: 100;">查看更新记录</button></a>
+      <div id="stableChangelog" style="display: none;">
+        <table class="table table-striped">
+          <tbody>
+          <tr>
+            <td>exe</td>
+            <td id="stableExeSha1">Loading...</td>
+          </tr>
+          <tr>
+            <td>jar</td>
+            <td id="stableJarSha1">Loading...</td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="swimlane">
+  <h2>下载开发版 <span id="devVersion">Loading...</span></h2>
+
+  <div class="alt-downloads">
+    <div class="download windows">
+      <div class="logo"></div>
+      <a id="devWindowsHref">
+        <button class="link-button dlink" data-os="win">
+          <img class="download-icon" src="../assets/img/download.svg" width="18px" height="18px" alt="下载 Hello Minecraft! Launcher" />
+          <img class="download-icon-accessible" src="../assets/img/download-black.svg" width="18px" height="18px" alt="下载 Hello Minecraft! Launcher" />
+          Windows
+          <small>Windows XP, Vista, 7, 8, 10</small>
+        </button>
+      </a>
+      <table class="downloads">
+        <colgroup>
+          <col />
+          <col />
+        </colgroup>
+        <tbody>
+        <tr>
+          <td><strong>.exe</strong></td>
+          <td>
+            <a class="dlink" data-os="winexe" id="devWindowsExe">下载</a>
+          </td>
+        </tr>
+        <tr>
+          <td><strong>.jar</strong></td>
+          <td>
+            <a class="dlink" data-os="winjar" id="devWindowsJar">下载</a>
+          </td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="download linux">
+      <div class="logo"></div>
+      <a id="devLinuxHref">
+        <button class="link-button dlink" data-os="linux">
+          <img class="download-icon" src="../assets/img/download.svg" width="18px" height="18px" alt="下载 Hello Minecraft! Launcher" />
+          <img class="download-icon-accessible" src="../assets/img/download-black.svg" width="18px" height="18px" alt="下载 Hello Minecraft! Launcher" />
+          .jar
+          <small>Linux, Oracle JDK 8~10</small>
+        </button>
+      </a>
+      <table class="downloads">
+        <colgroup>
+          <col />
+          <col />
+        </colgroup>
+        <tbody>
+        <tr>
+          <td><strong>.jar</strong></td>
+          <td><a class="dlink" data-os="linux" id="devLinuxJar">下载</a></td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="download mac">
+      <div class="logo"></div>
+      <a id="devMacHref">
+        <button class="link-button dlink" data-os="osx">
+          <img class="download-icon" src="../assets/img/download.svg" width="18px" height="18px" alt="下载 Hello Minecraft! Launcher" />
+          <img class="download-icon-accessible" src="../assets/img/download-black.svg" width="18px" height="18px" alt="下载 Hello Minecraft! Launcher" />
+          Mac
+          <small>Java 8~10</small>
+        </button>
+      </a>
+      <table class="downloads">
+        <colgroup>
+          <col />
+          <col />
+        </colgroup>
+        <tbody>
+        <tr>
+          <td><strong>.jar</strong></td>
+          <td><a class="dlink" data-os="osx" id="devMacJar">下载</a></td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <button class="btn-link" style="font-size: 14px; font-weight: 100;" onclick="onShowHashCode('devChangelog')">查看 SHA-1 哈希值</button>
+      <a target="_blank" href="../changelog/dev.html"><button class="btn-link" style="font-size: 14px; font-weight: 100;">查看更新记录</button></a>
+      <div id="devChangelog" style="display: none;">
+        <table class="table table-striped">
+          <tbody>
+          <tr>
+            <td id="devExeTd">Loading...</td>
+            <td id="devExeSha1">Loading...</td>
+          </tr>
+          <tr>
+            <td id="devJarTd">Loading...</td>
+            <td id="devJarSha1">Loading...</td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+</div>
+
+    <div align="center" style="margin: 1em 0;">
+        <ins class="adsbygoogle"
+             style="display:block; border-bottom: initial;"
+             data-ad-client="ca-pub-7328585512091257"
+             data-ad-slot="3049671934"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+    </div>
+</div>
+
+
+
+<div class="page__footer">
+    <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        
+<div class="page__footer-follow">
+    <ul class="social-icons">
+        
+
+        
+
+        
+        <li><a href="../feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+        
+    </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2022 huangyuhui.
+    <a href="https://beian.miit.gov.cn/">粤 ICP 备 18071565 号</a>
+    <img src="../../www.huangyuhui.net/ghs.png">
+    <a
+        href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44010502002149"
+>粤公网安备 44010502002149 号</a
+> </div>
+    </footer>
+</div>
+
+
+  <script src="../assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+<style>
+    .google-auto-placed {
+        margin: 2em auto;
+    }
+</style>
+<script async src="../../pagead2.googlesyndication.com/pagead/js/f.txt"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+</body>
+
+<!-- Mirrored from hmcl.huangyuhui.net/download/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 17 Jan 2023 14:02:59 GMT -->
+</html>
